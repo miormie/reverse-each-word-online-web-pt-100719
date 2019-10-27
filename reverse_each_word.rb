@@ -2,9 +2,9 @@ def reverse_each_word(string)
 
  new_string a= string.each 
  
- new_string.collect do |word|
+ new_string.collect 
    
-   word.reverse 
+   return new_string.reverse 
    
  end 
  
