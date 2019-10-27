@@ -1,10 +1,18 @@
 def reverse_each_word(string)
 
- array = string.split(" ") # can't put each, use split to 
- array.collect do |word|
+ array = string.split(" ") 
+ 
+ 
+ array.collect do |word|  # need to collect the array that I just made
    word.reverse! 
  end 
  
  return array.join(" ")
  
 end 
+
+
+
+
+# turn string to array, can't put each b/c doesn't reverse use split to separate each word 
+# need to collect the array just 
