@@ -1,4 +1,4 @@
 def reverse_each_word(string)
 
-return reverse string
+return string.reverse 
 end 
